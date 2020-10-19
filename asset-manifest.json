@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jonyalmeida/jonyalmeida.github.io/static/css/main.2b0bfc16.chunk.css",
+    "main.js": "/jonyalmeida/jonyalmeida.github.io/static/js/main.80bfc0f8.chunk.js",
+    "main.js.map": "/jonyalmeida/jonyalmeida.github.io/static/js/main.80bfc0f8.chunk.js.map",
+    "runtime-main.js": "/jonyalmeida/jonyalmeida.github.io/static/js/runtime-main.08e397a1.js",
+    "runtime-main.js.map": "/jonyalmeida/jonyalmeida.github.io/static/js/runtime-main.08e397a1.js.map",
+    "static/js/2.bc14cdd9.chunk.js": "/jonyalmeida/jonyalmeida.github.io/static/js/2.bc14cdd9.chunk.js",
+    "static/js/2.bc14cdd9.chunk.js.map": "/jonyalmeida/jonyalmeida.github.io/static/js/2.bc14cdd9.chunk.js.map",
+    "index.html": "/jonyalmeida/jonyalmeida.github.io/index.html",
+    "precache-manifest.5e27b75376a3ea445d5b60b3a9d2d253.js": "/jonyalmeida/jonyalmeida.github.io/precache-manifest.5e27b75376a3ea445d5b60b3a9d2d253.js",
+    "service-worker.js": "/jonyalmeida/jonyalmeida.github.io/service-worker.js",
+    "static/css/main.2b0bfc16.chunk.css.map": "/jonyalmeida/jonyalmeida.github.io/static/css/main.2b0bfc16.chunk.css.map",
+    "static/js/2.bc14cdd9.chunk.js.LICENSE.txt": "/jonyalmeida/jonyalmeida.github.io/static/js/2.bc14cdd9.chunk.js.LICENSE.txt",
+    "static/media/jony-closer.jpg": "/jonyalmeida/jonyalmeida.github.io/static/media/jony-closer.15f6ec09.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08e397a1.js",
+    "static/js/2.bc14cdd9.chunk.js",
+    "static/css/main.2b0bfc16.chunk.css",
+    "static/js/main.80bfc0f8.chunk.js"
+  ]
+}
