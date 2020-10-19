@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/jonyalmeida/jonyalmeida.github.io.git/static/css/main.2b0bfc16.chunk.css",
-    "main.js": "/jonyalmeida/jonyalmeida.github.io.git/static/js/main.097aab02.chunk.js",
-    "main.js.map": "/jonyalmeida/jonyalmeida.github.io.git/static/js/main.097aab02.chunk.js.map",
-    "runtime-main.js": "/jonyalmeida/jonyalmeida.github.io.git/static/js/runtime-main.7e75f86f.js",
-    "runtime-main.js.map": "/jonyalmeida/jonyalmeida.github.io.git/static/js/runtime-main.7e75f86f.js.map",
-    "static/js/2.bc14cdd9.chunk.js": "/jonyalmeida/jonyalmeida.github.io.git/static/js/2.bc14cdd9.chunk.js",
-    "static/js/2.bc14cdd9.chunk.js.map": "/jonyalmeida/jonyalmeida.github.io.git/static/js/2.bc14cdd9.chunk.js.map",
-    "index.html": "/jonyalmeida/jonyalmeida.github.io.git/index.html",
-    "precache-manifest.49a05a2592b956989560fe30afe62c1d.js": "/jonyalmeida/jonyalmeida.github.io.git/precache-manifest.49a05a2592b956989560fe30afe62c1d.js",
-    "service-worker.js": "/jonyalmeida/jonyalmeida.github.io.git/service-worker.js",
-    "static/css/main.2b0bfc16.chunk.css.map": "/jonyalmeida/jonyalmeida.github.io.git/static/css/main.2b0bfc16.chunk.css.map",
-    "static/js/2.bc14cdd9.chunk.js.LICENSE.txt": "/jonyalmeida/jonyalmeida.github.io.git/static/js/2.bc14cdd9.chunk.js.LICENSE.txt",
-    "static/media/jony-closer.jpg": "/jonyalmeida/jonyalmeida.github.io.git/static/media/jony-closer.15f6ec09.jpg"
+    "main.css": "/static/css/main.2b0bfc16.chunk.css",
+    "main.js": "/static/js/main.0cd4f34f.chunk.js",
+    "main.js.map": "/static/js/main.0cd4f34f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.07ac94ce.js",
+    "runtime-main.js.map": "/static/js/runtime-main.07ac94ce.js.map",
+    "static/js/2.bc14cdd9.chunk.js": "/static/js/2.bc14cdd9.chunk.js",
+    "static/js/2.bc14cdd9.chunk.js.map": "/static/js/2.bc14cdd9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9ea177b834f8cdf24fb30bde2882241a.js": "/precache-manifest.9ea177b834f8cdf24fb30bde2882241a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2b0bfc16.chunk.css.map": "/static/css/main.2b0bfc16.chunk.css.map",
+    "static/js/2.bc14cdd9.chunk.js.LICENSE.txt": "/static/js/2.bc14cdd9.chunk.js.LICENSE.txt",
+    "static/media/jony-closer.jpg": "/static/media/jony-closer.15f6ec09.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e75f86f.js",
+    "static/js/runtime-main.07ac94ce.js",
     "static/js/2.bc14cdd9.chunk.js",
     "static/css/main.2b0bfc16.chunk.css",
-    "static/js/main.097aab02.chunk.js"
+    "static/js/main.0cd4f34f.chunk.js"
   ]
 }
