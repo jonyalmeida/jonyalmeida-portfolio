@@ -5,10 +5,11 @@ import SkillNav from "./SkillNav";
 import { skills } from "./skills";
 
 export default function Home() {
-    const [selected, setSelected] = useState(1);
-    // const [left, setLeft] = useState(selected - 1);
-    // const [right, setRight] = useState(selected + 1);
-
+    const [select, setSelect] = useState({
+        selected: 1,
+        left: 0,
+        right: 2,
+    });
     const navArray = Object.keys(skills);
 
     const handleClick = (e) => {
@@ -20,8 +21,12 @@ export default function Home() {
                     .classList.remove("highlight");
             }
         }
-
-        setSelected(navArray.indexOf(e.target.id));
+        setSelect({
+            selected: navArray.indexOf(e.target.id),
+            left: navArray.indexOf(e.target.id) - 1,
+            right: navArray.indexOf(e.target.id) + 1,
+        });
+        console.log(select);
     };
 
     return (
@@ -37,23 +42,23 @@ export default function Home() {
                 <SkillNav handleClick={handleClick} />
                 <div className='carousel'>
                     <div className='carousel--side-div'>
-                        {selected - 1 < 0 ? null : (
+                        {select.left >= 0 && (
                             <Skill
                                 id='left'
-                                skillObj={skills[navArray[selected - 1]]}
+                                skillObj={skills[navArray[select.left]]}
                             />
                         )}
                     </div>
                     <div id='main' className='carousel--main-div'>
-                        <Skill skillObj={skills[navArray[selected]]} />
+                        <Skill skillObj={skills[navArray[select.selected]]} />
                     </div>
                     <div id='right' className='carousel--side-div'>
-                        {selected + 1 < 4 ? (
+                        {select.right < 4 && (
                             <Skill
                                 id='right'
-                                skillObj={skills[navArray[selected + 1]]}
+                                skillObj={skills[navArray[select.right]]}
                             />
-                        ) : null}
+                        )}
                     </div>
                 </div>
             </div>
