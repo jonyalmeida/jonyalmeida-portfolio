@@ -1,28 +1,48 @@
+import React, { useState } from "react";
 import "./App.css";
-import { Route, BrowserRouter } from "react-router-dom";
 
 import Header from "./components/Header";
-import Jony from "./components/Jony";
+import Home from "./components/Home";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <>
-      <Header />
-      <BrowserRouter>
-        <div>
-          <Route path='/' exact component={Jony} />
-          <Route path='/education' component={Education} />
-          <Route path='/experience' component={Experience} />
-          <Route path='/projects' component={Projects} />
-        </div>
-      </BrowserRouter>
-      <Footer />
-    </>
-  );
-}
+export default function App() {
+    const [show, setShow] = useState("home");
 
-export default App;
+    const handleClick = (e) => {
+        switch (e.target.id) {
+            case "home":
+                setShow("home");
+                break;
+            case "education":
+                setShow("education");
+                break;
+            case "experience":
+                setShow("experience");
+                break;
+            case "projects":
+                setShow("projects");
+                break;
+            default:
+                setShow("home");
+        }
+    };
+
+    return (
+        <>
+            <Header handleClick={handleClick} />
+            {show === "home" ? (
+                <Home />
+            ) : show === "education" ? (
+                <Education />
+            ) : show === "experience" ? (
+                <Experience />
+            ) : (
+                <Projects />
+            )}{" "}
+            <Footer />
+        </>
+    );
+}
