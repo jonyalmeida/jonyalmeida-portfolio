@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./App.scss";
 
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 export default function App() {
-    const [show, setShow] = useState("home");
+    const [show, setShow] = useState("education");
 
     const handleClick = (e) => {
         switch (e.target.id) {
@@ -28,6 +28,14 @@ export default function App() {
             default:
                 setShow("home");
         }
+        ["home", "education", "experience", "projects"].forEach((item) => {
+            if (item === e.target.id) {
+                console.log("SELECTED", e.target.id, item);
+                document.querySelector(`#${item}`).classList.add("selected");
+            } else {
+                document.querySelector(`#${item}`).classList.remove("selected");
+            }
+        });
     };
 
     return (
@@ -41,7 +49,7 @@ export default function App() {
                 <Experience />
             ) : (
                 <Projects />
-            )}{" "}
+            )}
             <Footer />
         </>
     );

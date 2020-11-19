@@ -26,7 +26,6 @@ export default function Home() {
             left: navArray.indexOf(e.target.id) - 1,
             right: navArray.indexOf(e.target.id) + 1,
         });
-        console.log(select);
     };
 
     return (

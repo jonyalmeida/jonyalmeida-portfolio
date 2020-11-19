@@ -8,12 +8,11 @@ export default function SkillNav({ handleClick }) {
     return (
         <div className='skill--nav'>
             {navArray.map((skill, idx) => (
-                <div
-                    id={skill}
-                    key={idx}
-                    className='skill--nav-item'
-                    onClick={handleClick}>
-                    {skills[skill].skillName}
+                <div key={idx} className='skill--nav-item'>
+                    <h3 id={skill} onClick={handleClick}>
+                        {skills[skill].skillName}
+                    </h3>
+                    <div class='skill--underbar'></div>
                 </div>
             ))}
         </div>

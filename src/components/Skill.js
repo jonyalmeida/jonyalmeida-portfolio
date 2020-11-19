@@ -8,6 +8,11 @@ export default function Skill({ skillObj }) {
                 {skillObj.skillItems.map((item, idx) => (
                     <div key={idx}>
                         <div className='skill--item-name'>{item.name}</div>
+                        {item.other ? (
+                            <div className='skill--item-other'>
+                                {item.other}
+                            </div>
+                        ) : null}
                         <div className='skill--logo-bar'>
                             <img
                                 src={item.logoURL}
@@ -18,9 +23,6 @@ export default function Skill({ skillObj }) {
                                 max='10'
                                 value={item.proficiencyLevel}></progress>
                         </div>
-                        {item.other ? (
-                            <li className='skill--item-other'>{item.other}</li>
-                        ) : null}
                     </div>
                 ))}
             </div>
