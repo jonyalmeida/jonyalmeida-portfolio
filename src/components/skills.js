@@ -53,7 +53,7 @@ export const skills = {
                 name: "Javascript - server side",
                 proficiencyLevel: 8,
                 logoURL: javascriptLogo,
-                other: "npm, mocha testing",
+                other: "npm, mocha testing, helmetJS",
             },
             {
                 name: "Python",

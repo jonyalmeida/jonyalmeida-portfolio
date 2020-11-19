@@ -188,7 +188,35 @@ progress[value]::-webkit-progress-value {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60% 40%;
+    font-size: 0.9em;
+}
+
+.education--content-box {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.education--content-header {
+    width: 75%;
+}
+
+.education--content-header h2 {
+    text-decoration: underline;
+}
+
+.education--logo {
+    width: 150px;
+    float: right;
+}
+
+strong {
+    font-size: 1.2em;
+    color: rgb(0, 166, 255);
+}
+
+.education--bullet-items {
+    color: rgb(255, 77, 0);
 }
 
 /* Footer */
