@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 export default function App() {
-    const [show, setShow] = useState("education");
+    const [show, setShow] = useState("home");
 
     const handleClick = (e) => {
         switch (e.target.id) {
