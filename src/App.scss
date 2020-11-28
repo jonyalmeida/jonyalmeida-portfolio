@@ -59,7 +59,7 @@ body,
 }
 
 .selected {
-    transform: scale(1.5);
+    transform: scale(1.2);
     cursor: pointer;
     border-bottom: 1px black solid;
 }
@@ -70,6 +70,8 @@ body,
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 100%;
+    height: 100vh;
+    padding-top: 1%;
 }
 
 .home--personal {

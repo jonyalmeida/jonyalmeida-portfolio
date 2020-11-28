@@ -36,7 +36,7 @@ export default function Home() {
     };
 
     return (
-        <div className='home'>
+        <div className='home' id='hm'>
             <div className='home--personal'>
                 <div>
                     <h2>Full Stack Software Engineer-</h2>
@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
             </div>
             <div className='home--skills'>
-                <SkillNav handleClick={handleClick} />
+                {/* <SkillNav handleClick={handleClick} /> */}
                 <div className='carousel'>
                     <div className='carousel--side-div'>
                         {select.left >= 0 && (

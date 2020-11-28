@@ -9,7 +9,7 @@ export default function Header(props) {
             <div className='header--main-menu'>
                 <div className='header--main-menu-inner'>
                     <h2
-                        className='header--main-menu-inner-item'
+                        className='header--main-menu-inner-item selected'
                         id='home'
                         onClick={props.handleClick}>
                         Home

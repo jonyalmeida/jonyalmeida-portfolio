@@ -7,7 +7,7 @@ import udemyLogo from "../public/images/udemy-meta-image.png";
 
 export default function Education() {
     return (
-        <div className='education' id='education'>
+        <div className='education' id='edu'>
             <div className='education--content-box'>
                 <div className='education--content-header'>
                     <img
