@@ -19,9 +19,9 @@ export default function Skill({ skillObj }) {
                                 alt={item.name}
                                 className='technology-logo'
                             />
-                            <progress
+                            {/* <progress
                                 max='10'
-                                value={item.proficiencyLevel}></progress>
+                                value={item.proficiencyLevel}></progress> */}
                         </div>
                     </div>
                 ))}

@@ -28,7 +28,7 @@ export default function Education() {
                     <strong>Agile Work Flow Methodologies</strong> while
                     students work solo, in pairs or small groups, collaborating
                     on the development of several{" "}
-                    <trong>full stack web applications</trong>
+                    <strong>full stack web applications</strong>
                     through out the 6 months program.
                     <ul>
                         <li className='education--bullet-items'>

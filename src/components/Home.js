@@ -19,6 +19,7 @@ export default function Home() {
     const navArray = Object.keys(skills);
 
     const handleClick = (e) => {
+        console.log("CLICK");
         e.target.classList.add("highlight");
         for (let item of navArray) {
             if (item !== e.target.id) {

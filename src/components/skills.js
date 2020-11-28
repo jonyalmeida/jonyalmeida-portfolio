@@ -5,8 +5,9 @@ import sqlalchemyLogo from "../public/images/sqlalchemy-q5uAkmy7_400x400.png";
 import relationaldbLogo from "../public/images/relational-database-157-512.png";
 import javascriptLogo from "../public/images/javascript-icon-png-23.png";
 import pythonLogo from "../public/images/alternative-python-icons-and-folder-icon-python-3-png-clipart.jpg";
+import djangoLogo from "../public/images/python-django.png";
 import expressLogo from "../public/images/express-js-node-js-javascript-session-web-application-png-favpng-nC0AgMs2TUUtFy3XMsP81vXd4.jpg";
-import nodeLogo from "../public/images/node-js-javascript-web-application-express-js-computer-software-others-thumbnail.jpg";
+import nodeLogo from "../public/images/1200px-Node.js_logo_2015.png";
 import flaskLogo from "../public/images/flask-python.png";
 import restfulLogo from "../public/images/rest-api-icon-8.png";
 import oauthLogo from "../public/images/1200px-Oauth_logo.svg.png";
@@ -50,26 +51,25 @@ export const skills = {
         skillName: "Backend",
         skillItems: [
             {
-                name: "Javascript - server side",
+                name: "Node.js",
                 proficiencyLevel: 8,
-                logoURL: javascriptLogo,
-                other: "npm, mocha testing, helmetJS",
+                logoURL: nodeLogo,
+                other: "npm, mocha testing, helmetJS, cors, csrf, validation",
+            },
+            {
+                name: "Express",
+                logoURL: expressLogo,
+                proficiencyLevel: 7,
             },
             {
                 name: "Python",
                 proficiencyLevel: 8,
                 logoURL: pythonLogo,
-                other: "pipenv, conda, pytest, pytorch",
+                other: "pipenv, conda, unittest, pytest, pytorch",
             },
             {
-                name: "Express JS",
-                logoURL: expressLogo,
-                proficiencyLevel: 7,
-            },
-            {
-                name: "Node.js",
-                logoURL: nodeLogo,
-                proficiencyLevel: 7,
+                name: "Django",
+                logoURL: djangoLogo,
             },
             {
                 name: "Flask",
